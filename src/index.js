@@ -220,7 +220,7 @@ async function setupViewer() {
       .to(modelRotation, {
         x: 0,
         y: 2.3,
-        z: 7.5,
+        z: 5.5,
         scrollTrigger: {
           trigger: ".five",
           start: "top bottom",
