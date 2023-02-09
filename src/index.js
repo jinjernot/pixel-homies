@@ -63,19 +63,11 @@ async function setupViewer() {
 
   let a = ["./assets/scene.glb","./assets/scene2.glb","./assets/scene3.glb"];
   var r = a[Math.floor(Math.random()*a.length)];
-
-
   
-
   const model = await manager.addFromPath(r);
-  
-  
   const object3d = model[0].modelObject;
   const modelPosition = object3d.position;
   const modelRotation = object3d.rotation;
-  
-
-
 
   const loaderElement = document.querySelector(".loader");
 
@@ -116,9 +108,9 @@ async function setupViewer() {
 
   function setupScrollanimation() {
     document.body.removeChild(loaderElement);
-
+    
     const tl = gsap.timeline();
-
+      
     tl.to(modelPosition, {
       x: 0.0,
       y: 0.0,
