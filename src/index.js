@@ -115,12 +115,12 @@ async function setupViewer() {
     tl.to(modelPosition, {
       x: 0,
       y: 0,
-      z: -1,
+      z: 0,
       scrollTrigger: {
         trigger: ".first",
         start: "top top",
         end: "top top",
-        scrub: 10,
+        scrub: 8,
         immediateRender: false,
       },
       onUpdate,
