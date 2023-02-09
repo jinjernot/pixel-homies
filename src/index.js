@@ -110,7 +110,8 @@ async function setupViewer() {
     document.body.removeChild(loaderElement);
     
     const tl = gsap.timeline();
-      
+
+    // Starting position
     tl.to(modelPosition, {
       x: 0.0,
       y: 0.0,
@@ -124,11 +125,11 @@ async function setupViewer() {
       },
       onUpdate,
     })
-
+    //Second section - Collection
       .to(modelPosition, {
-        x: 0.00,
-        y: 3.5,
-        z: -0.22,
+        x: .75,
+        y: -1.5,
+        z: 0,
         scrollTrigger: {
           trigger: ".second",
           start: "top bottom",
@@ -138,11 +139,10 @@ async function setupViewer() {
         },
         onUpdate,
       })
-
       .to(modelRotation, {
         x: 0.0,
         y: 0,
-        z: -1.57,
+        z: 0,
         scrollTrigger: {
           trigger: ".second",
           start: "top bottom",
@@ -151,7 +151,7 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
-
+      //Third section - Handmade
       .to(modelPosition, {
         x: 1.40,
         y: -1.30,
@@ -165,7 +165,6 @@ async function setupViewer() {
         },
         onUpdate,
       })
-
       .to(modelRotation, {
         x: -0.403,
         y: 0.3,
@@ -178,7 +177,7 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
-
+      //Fourth section - Where
       .to(modelPosition, {
         x: -1.5,
         y: -2.0,
@@ -192,7 +191,6 @@ async function setupViewer() {
         },
         onUpdate,
       })
-
       .to(modelRotation, {
         x: 0,
         y: 0,
@@ -205,6 +203,7 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
+      //Fifth section - Comming Soon
       .to(modelPosition, {
         x: -2.0,
         y: -0.50,
@@ -230,33 +229,7 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
-
-      .to(modelPosition, {
-        x: 0.16,
-        y: -0.3,
-        z: -0.56,
-        scrollTrigger: {
-          trigger: ".six",
-          start: "top bottom",
-          end: "top top",
-          scrub: 0.2,
-          immediateRender: false,
-        },
-        onUpdate,
-      })
-
-      .to(modelRotation, {
-        x: -0.261,
-        y: 4.911,
-        z: -0.277,
-        scrollTrigger: {
-          trigger: ".six",
-          start: "top bottom",
-          end: "top top",
-          scrub: 0.2,
-          immediateRender: false,
-        },
-      })
+      
       .to(".section--one--container1", {
         opacity: 0,
         scrollTrigger: {
@@ -278,18 +251,9 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
-      .to(".section--two--container1", {
+      .to(".section--two--container", {
         scrollTrigger: {
-          trigger: ".section--two--container1",
-          start: "top 80%",
-          end: "bottom center",
-          toggleClass: "activeRightSpecific",
-          scrub: true,
-        },
-      })
-      .to(".section--two--container2", {
-        scrollTrigger: {
-          trigger: ".section--two--container2",
+          trigger: ".section--two--container",
           start: "top 80%",
           end: "bottom center",
           toggleClass: "resetPosition",
@@ -317,15 +281,6 @@ async function setupViewer() {
       .to(".section--five--container ", {
         scrollTrigger: {
           trigger: ".section--five--container ",
-          start: "top 80%",
-          end: "bottom center",
-          toggleClass: "resetPosition",
-          scrub: true,
-        },
-      })
-      .to(".section--six--container ", {
-        scrollTrigger: {
-          trigger: ".section--six--container ",
           start: "top 80%",
           end: "bottom center",
           toggleClass: "resetPosition",

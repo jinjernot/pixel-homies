@@ -209,12 +209,11 @@ main {
   color: var(--vlack);
 }
 
-.second {
+ .second {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  
 }
 
 .section--two--container1 {
@@ -224,13 +223,6 @@ main {
   transform: rotateZ(45deg) translateY(225px);
   transition: all 0.5s ease-in-out;
   opacity: 0;
-}
-
-.second h1 {
-  font-size: 5vw;
-  font-family: "alagard", sans-serif;
-  color: var(--vlack);
-  white-space: 0px;
 }
 
 .section--two--container2 {
@@ -243,21 +235,6 @@ main {
   opacity: 0;
 }
 
-.second span {
-  font-size: 6vw;
-  font-family: "alagard", sans-serif;
-  color: var(--red);
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  letter-spacing: 0px;
-}
-
-.second p {
-  font-size: 2rem;
-  font-family: "alagard", sans-serif;
-  color: var(--vlack);
-}
-
 .leftSide {
   display: flex;
   justify-content: space-between;
@@ -265,10 +242,9 @@ main {
   margin: auto;
 }
 
-.section--three--container {
+.section--two--container {
   display: flex;
   flex-direction: column;
-
   width: 30%;
   margin-left: 10%;
   transform: translateX(-1000px);
@@ -283,34 +259,34 @@ main {
   margin: auto;
 }
 
+.section--three--container {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  margin-right: 10%;
+
+  transform: translateX(1000px);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
 .section--four--container {
   display: flex;
   flex-direction: column;
 
   width: 30%;
   margin-right: 10%;
-
   transform: translateX(1000px);
   transition: all 0.5s ease-in-out;
   opacity: 0;
 }
 
-.section--five--container {
-  display: flex;
-  flex-direction: column;
-
-  width: 30%;
-  margin-right: 10%;
-  transform: translateX(1000px);
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-}
-
-.six {
+.five {
   position: relative;
 }
 
-.section--six--container {
+.section--five--container {
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -345,7 +321,6 @@ footer {
   align-items: center;
   position: absolute;
   bottom: 0;
-
   width: 100%;
 }
 
@@ -374,12 +349,6 @@ footer > a {
   transform: translateX(0px);
   transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
   opacity: 1;
-}
-
-.activeRightSpecific {
-  transform: rotateZ(-90deg) translateY(0px);
-  opacity: 1;
-  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
 }
 
 #webgi-canvas {
