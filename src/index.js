@@ -113,9 +113,9 @@ async function setupViewer() {
 
     // Starting position
     tl.to(modelPosition, {
-      x: 0.0,
-      y: 0.0,
-      z: 0.0,
+      x: 0,
+      y: 0,
+      z: -1,
       scrollTrigger: {
         trigger: ".first",
         start: "top top",
@@ -205,9 +205,9 @@ async function setupViewer() {
       })
       //Fifth section - Comming Soon
       .to(modelPosition, {
-        x: 0,
+        x: -2,
         y: 0,
-        z: 2,
+        z: 0,
         scrollTrigger: {
           trigger: ".five",
           start: "top bottom",
@@ -219,8 +219,8 @@ async function setupViewer() {
       })
       .to(modelRotation, {
         x: 0,
-        y: 3.1,
-        z: 1.54,
+        y: 2.5,
+        z: 8,
         scrollTrigger: {
           trigger: ".five",
           start: "top bottom",
