@@ -262,10 +262,8 @@ main {
 .section--three--container {
   display: flex;
   flex-direction: column;
-
   width: 30%;
   margin-right: 10%;
-
   transform: translateX(1000px);
   transition: all 0.5s ease-in-out;
   opacity: 0;
@@ -274,9 +272,8 @@ main {
 .section--four--container {
   display: flex;
   flex-direction: column;
-
   width: 30%;
-  margin-right: 10%;
+  margin-left: 10%;
   transform: translateX(1000px);
   transition: all 0.5s ease-in-out;
   opacity: 0;
@@ -356,7 +353,6 @@ footer > a {
   height: 100%;
   position: fixed;
   top: 0;
-  
   pointer-events: none;
   z-index: -1;
 }
@@ -450,6 +446,6 @@ ul li {
 }
 
 .top-btn{
-margin-right: 5%;
-margin-top: 30%;
+margin-left: 5%;
+margin-top: 40%;
 }

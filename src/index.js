@@ -127,8 +127,8 @@ async function setupViewer() {
     })
     //Second section - Collection
       .to(modelPosition, {
-        x: .75,
-        y: -1.5,
+        x: 2,
+        y: -.25,
         z: 0,
         scrollTrigger: {
           trigger: ".second",
@@ -140,8 +140,8 @@ async function setupViewer() {
         onUpdate,
       })
       .to(modelRotation, {
-        x: 0.0,
-        y: 0,
+        x: 0,
+        y: 6.1,
         z: 0,
         scrollTrigger: {
           trigger: ".second",
@@ -153,9 +153,9 @@ async function setupViewer() {
       })
       //Third section - Handmade
       .to(modelPosition, {
-        x: 1.40,
-        y: -1.30,
-        z: 0.00,
+        x: -2,
+        y: -.25,
+        z: 0,
         scrollTrigger: {
           trigger: ".third",
           start: "top bottom",
@@ -166,9 +166,9 @@ async function setupViewer() {
         onUpdate,
       })
       .to(modelRotation, {
-        x: -0.403,
-        y: 0.3,
-        z: -0.421,
+        x: 0,
+        y: 0,
+        z: 0,
         scrollTrigger: {
           trigger: ".third",
           start: "top bottom",
@@ -179,8 +179,8 @@ async function setupViewer() {
       })
       //Fourth section - Where
       .to(modelPosition, {
-        x: -1.5,
-        y: -2.0,
+        x: 2,
+        y: -.25,
         z: 0,
         scrollTrigger: {
           trigger: ".four",
@@ -193,8 +193,8 @@ async function setupViewer() {
       })
       .to(modelRotation, {
         x: 0,
-        y: 0,
-        z: 3.0,
+        y: 6.1,
+        z: 0,
         scrollTrigger: {
           trigger: ".four",
           start: "top bottom",
@@ -205,9 +205,9 @@ async function setupViewer() {
       })
       //Fifth section - Comming Soon
       .to(modelPosition, {
-        x: -2.0,
-        y: -0.50,
-        z: 0.50,
+        x: 0,
+        y: 0,
+        z: 0,
         scrollTrigger: {
           trigger: ".five",
           start: "top bottom",
@@ -219,8 +219,8 @@ async function setupViewer() {
       })
       .to(modelRotation, {
         x: 0,
-        y: 0.2,
-        z: 0.95,
+        y: 3.1,
+        z: 1.55,
         scrollTrigger: {
           trigger: ".five",
           start: "top bottom",
@@ -240,7 +240,6 @@ async function setupViewer() {
           immediateRender: false,
         },
       })
-
       .to(".section--one--container2", {
         opacity: 0,
         scrollTrigger: {
