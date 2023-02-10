@@ -12,6 +12,7 @@ import "./styles.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Pane } from "tweakpane";
+import { CSSPlugin } from "gsap/CSSPlugin";
 
 gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.defaults({ scroller: ".mainContainer" });
@@ -44,7 +45,6 @@ async function setupViewer() {
 
   // or use this to add all main ones at once.
   // await addBasePlugins(viewer);
-
   // WEBGi loader
   const importer = manager.importer;
 
@@ -60,6 +60,7 @@ async function setupViewer() {
   });
 
   viewer.renderer.refreshPipeline();
+  const element = document.querySelector(".loader");
 
   let a = ["./assets/scene.glb","./assets/scene2.glb","./assets/scene3.glb"];
   var r = a[Math.floor(Math.random()*a.length)];
@@ -110,7 +111,6 @@ async function setupViewer() {
     document.body.removeChild(loaderElement);
     
     const tl = gsap.timeline();
-
     // Starting position
     tl.to(modelPosition, {
       x: 0,
@@ -219,7 +219,7 @@ async function setupViewer() {
       })
       .to(modelRotation, {
         x: 0,
-        y: 2.3,
+        y: 2.24,
         z: 5.5,
         scrollTrigger: {
           trigger: ".five",
