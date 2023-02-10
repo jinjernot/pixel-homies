@@ -28,7 +28,6 @@ body {
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
-  
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
@@ -164,7 +163,7 @@ main {
 .first p {
   font-size: 2vw;
   font-weight: 400;
-  color: var(--vlack);
+  color: var(--white);
 }
 
 .first h3 {
@@ -306,7 +305,7 @@ main {
 .detail {
   font-size: 1.5vw;
   line-height: 2.2vw;
-  color: var(--vlack);
+  color: var(--white);
   font-weight: 200;
 }
 
