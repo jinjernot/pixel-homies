@@ -28,7 +28,7 @@ body {
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
-
+  
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
