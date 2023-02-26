@@ -336,7 +336,7 @@ footer {
   align-items: center;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width:100%;
 }
 
 footer > a {
@@ -401,24 +401,23 @@ a {
 
 ul {
   display: flex;
-  align-items: left;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 1rem;
+  margin: 0rem;
   list-style-type: none;
   font-size: 1rem;
 }
 
 ul li {
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .fab {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .fas {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* transition for social icon hover animation */
@@ -430,7 +429,6 @@ ul li {
 }
 
 /* social media icons hover color */
-
 
 .fa-twitter:hover,
 .fa-twitter:focus {
@@ -444,7 +442,6 @@ ul li {
   color: #bd22a2;
   transform: scale(1.1);
 }
-
 
 .fa-discord:hover,
 .fa-discord:focus {
