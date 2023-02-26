@@ -308,7 +308,7 @@ async function setupViewer() {
   document.querySelectorAll(".fa-arrow-up")?.forEach((item) => {
     item.addEventListener("click", () => {
       const container = document.getElementsByClassName("mainContainer");
-      container[0].scrollTo({ top: 0, left: 0, behavior: "smooth" });
+      container[0].scrollTo({ top: 0, left: 0, behavior: "auto" });
     });
   });
 }
