@@ -137,7 +137,7 @@ const Team = () => {
     <Section id="team">
     <Suspense fallback={<Loading />}>
     <ConfettiComponent  /> </Suspense>
-      <Title>Team</Title>
+      <Title>El Equipo</Title>
       <Container>
         <MemberComponent img={img1}  name="David Villareal" position="Full Stack DevOps" />
         <MemberComponent img={img2}  name="Jorge Luis Gomez" position="Artista Gráfico" />
