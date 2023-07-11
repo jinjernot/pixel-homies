@@ -1,37 +1,48 @@
 {
-  "name": "webgi-vanilla-typescript",
-  "version": "1.0.0",
-  "description": "WebGi + TypeScript example starter project",
-  "main": "index.html",
+  "name": "the-weirdos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fontsource/akaya-telivigala": "^4.5.2",
+    "@fontsource/sora": "^4.5.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "gsap": "^3.9.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "react-use": "^17.3.2",
+    "styled-components": "^5.3.3",
+    "swiper": "^9.2.2",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^3.3.1"
+  },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --public-url ./",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --verbose"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "parcel-bundler": "^1.6.1",
-    "parcel-plugin-static-files-copy": "^2.6.0",
-    "webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.4.7.tgz"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": [
-    "javascript"
-  ],
-  "staticFiles": {
-    "staticPath": [
-      {
-        "staticPath": "assets",
-        "staticOutDir": "assets"
-      }
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
     ]
   },
-  "dependencies": {
-    "gh-pages": "^4.0.0",
-    "gsap": "^3.11.1",
-    "npm-check-updates": "^16.6.5",
-    "push-dir": "^0.4.1",
-    "tweakpane": "^3.1.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
