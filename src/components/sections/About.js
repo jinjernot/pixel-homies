@@ -154,7 +154,7 @@ const About = () => {
           <Carousel /> </Suspense> </Box>
         <Box> 
         <Title>
-        La coleccion. Weirdos Club.
+        La coleccion.
         </Title>
         <SubText>
         Pixel Homies es una coleccion de 1000 personajes coleccionables inspirados en la cultura mexicana con escenas clasicas de Guadalajara, Jalisco. Cada Pixel Homie fue generado algoritmicamente y cuentan con mas de 200 distintas variantes las cuales fueron hechas a mano, pixel por pixel. El precio por mint es de 0.015 ETH y seran lanzados en la red de Ethereum.
