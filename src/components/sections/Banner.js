@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
-import img5 from "../../assets/Nfts/bighead-4.svg";
-import img6 from "../../assets/Nfts/bighead-5.svg";
+import img1 from '../../assets/Nfts/1.png';
+import img2 from '../../assets/Nfts/2.png';
+import img3 from '../../assets/Nfts/3.png';
+import img4 from '../../assets/Nfts/4.png';
+import img5 from '../../assets/Nfts/5.png';
+import img6 from '../../assets/Nfts/6.png';
 
 const Section = styled.section`
 width: 100vw;
@@ -146,17 +146,17 @@ const Banner = () => {
   return (
     <Section>
         <ImgContainer>
-        <img src={img1} width="500" height="400"  alt="The Weirdos" />
-        <img src={img2} width="500" height="400"  alt="The Weirdos" />
-        <img src={img3} width="500" height="400"  alt="The Weirdos" />
-        <img src={img4} width="500" height="400"  alt="The Weirdos" />
-        <img src={img5} width="500" height="400"  alt="The Weirdos" />
-        <img src={img6} width="500" height="400"  alt="The Weirdos" />
+        <img src={img1} width="500" height="400"  alt="Pixel Homies" />
+        <img src={img2} width="500" height="400"  alt="Pixel Homies" />
+        <img src={img3} width="500" height="400"  alt="Pixel Homies" />
+        <img src={img4} width="500" height="400"  alt="Pixel Homies" />
+        <img src={img5} width="500" height="400"  alt="Pixel Homies" />
+        <img src={img6} width="500" height="400"  alt="Pixel Homies" />
 
         </ImgContainer>
         <Title>Join the
         <br/>
-        Weirdos Club
+        Pixel Homies
         </Title>
         <BtnContainer>
         <JoinNow>

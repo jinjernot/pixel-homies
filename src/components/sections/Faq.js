@@ -106,14 +106,14 @@ useLayoutEffect(() => {
 
   </Accordion>
   <Accordion ScrollTrigger={ScrollTrigger} title="WHY DO WE NEED ROYALTIES?" >
-  The amount of royalties was fixed at 5% to finance the Weirdos Club's projects. We have the ambition to organize multiple events around the world in order to strengthen the community and build a network of entrepreneurs and investors with the same mindset and common interests.
+  The amount of royalties was fixed at 5% to finance Pixel Homies Club's projects. We have the ambition to organize multiple events around the world in order to strengthen the community and build a network of entrepreneurs and investors with the same mindset and common interests.
   </Accordion>
 </Box>
 <Box>
 <Accordion ScrollTrigger={ScrollTrigger} title="HOW CAN I USE MY NFT?" >
 You will be able to use your NFT as an avatar in the Metaverse and our future video game. Holding also means that you are part of an exclusive network of investors and entrepreneurs.
   </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT ARE THE WEIRDOS?
+  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT ARE Pixel Homies?
 " >
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt consequatur quisquam maxime molestias dolores ipsum, exercitationem vel sint quidem aliquam modi quis impedit corporis unde inventore fugiat provident in.
   </Accordion>
