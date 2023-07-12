@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import GIF from '../assets/Home Video.mp4'
+import GIF from '../assets/Home GIF.gif'
 
 
 const VideoContainer = styled.div`
@@ -19,7 +19,7 @@ video{
 const CoverVideo = () => {
   return (
     <VideoContainer>
-        <video src={GIF} type="video/mp4" autoPlay muted loop  />
+        <video src={GIF} type="image/gif" autoPlay muted loop  />
     </VideoContainer>
   )
 }
