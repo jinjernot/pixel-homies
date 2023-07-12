@@ -14,7 +14,7 @@ const ConfettiComponent = lazy(() => import("../Confetti"));
 
 
 const Section = styled.section`
-min-height: 100vh;
+min-height: 50vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;

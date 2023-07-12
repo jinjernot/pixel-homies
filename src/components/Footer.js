@@ -11,7 +11,7 @@ const Banner = lazy(() => import("./Banner"));
 
 
 const Section = styled.section`
-min-height: 100vh;
+min-height: 80vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;

@@ -22,7 +22,7 @@ const Logo = () => {
   return (
     <LogoText>
         <Link to="/">
-        W.
+        SS
         </Link>
     </LogoText>
   )
