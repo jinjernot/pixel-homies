@@ -1,27 +1,26 @@
-import React from 'react'
-import styled from 'styled-components'
-import GIF from '../assets/Home GIF.gif'
+import React from 'react';
+import styled from 'styled-components';
+import CaraMicloImage from '../assets/Cara_Miclo.png';
 
+const ImageContainer = styled.div`
+  width: 100%;
 
-const VideoContainer = styled.div`
-width: 100%;
-
-video{
+  img {
     width: 100%;
     height: auto;
-}
+  }
 
-@media (max-width: 64em) {
-  min-width: 40vh;
-}
-`
+  @media (max-width: 64em) {
+    min-width: 40vh;
+  }
+`;
 
-const CoverVideo = () => {
+const CoverImage = () => {
   return (
-    <VideoContainer>
-        <video src={GIF} type="image/gif" autoPlay muted loop  />
-    </VideoContainer>
-  )
-}
+    <ImageContainer>
+      <img src={CaraMicloImage} alt="Cara Miclo" />
+    </ImageContainer>
+  );
+};
 
-export default CoverVideo
+export default CoverImage;
